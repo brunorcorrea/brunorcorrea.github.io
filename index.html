@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bruno Ricardo Corrêa</title>
+  <style>
+    :root {
+      --primary-color: #0f172a;
+      --secondary-color: #1e293b;
+      --accent-color: #38bdf8;
+      --text-color: #e2e8f0;
+      --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--primary-color);
+      color: var(--text-color);
+      font-family: var(--font);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background: var(--secondary-color);
+      padding: 2rem;
+      border-radius: 1rem;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid var(--accent-color);
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin: 0.5rem 0;
+    }
+
+    p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .badges a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+
+    .badges a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="profile.png" alt="Bruno Ricardo Corrêa" />
+    <h1>Bruno Ricardo Corrêa</h1>
+    <p>Backend Developer | Java | Spring Boot | PostgreSQL | Golang</p>
+    <p>💻 Estudante de ADS na UNICAMP</p>
+    <p>📍 Iracemápolis, SP · Desenvolvedor Júnior na Sensedia</p>
+
+    <div class="badges">
+      <a href="https://www.linkedin.com/in/brunorcorrea" target="_blank">LinkedIn</a>
+      <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a>
+    </div>
+  </div>
+</body>
+</html>
